@@ -14,52 +14,19 @@ import java.util.Objects;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        Day2Part1 penis = new Day2Part1();
 
 
-//
-//            if (isGood) {//gets all the ones that already work without having to remove stuff
-//                good += 1;
-//            } else {//this is where i manually remove
-//                boolean newIncreasing;
-//                for (int remove = 0; remove < temp.size()-2; remove++) {
-//                    if (isGood) {
-//                        break;
-//                    }
-//                    isGood = true;
-//                    String removedString = temp.remove(remove);
-//                    newIncreasing = Integer.parseInt(temp.get(0)) < Integer.parseInt(temp.get(1));
-//                    for (int p = 0; p < temp.size() - 1 ; p++) {
-//                        if (newIncreasing) {
-//                            if (Integer.parseInt(temp.get(p + 1)) - Integer.parseInt(temp.get(p)) > 3 || Integer.parseInt(temp.get(p + 1)) - Integer.parseInt(temp.get(p)) < 1) {
-//                                isGood = false;//this is the place where i check the errors
-//                                //make the method to manually remove each index
-//
-//                            } else {
-//                                continue;
-//                            }
-//                        } else {
-//                            if (Integer.parseInt(temp.get(p)) - Integer.parseInt(temp.get(p+1)) > 3 || Integer.parseInt(temp.get(p)) - Integer.parseInt(temp.get(p+1)) < 1) {
-//                                isGood = false;
-//                            } else {
-//                                continue;
-//                            }
-//                        }
-//
-//                    }
-//                    if (isGood) {
-//                        good += 1;
-//                        break;
-//                    }
-//
-//
-//                    temp.add(remove, removedString);
-//                }
-//            }
-//        }
-//
-//
-//        System.out.println(good);
+
+        //day 3
+        /*
+        Day3 a = new Day3();
+        System.out.println(a.multiplyAllMul());
+        System.out.println("done");
+        */
+
+        //day 2
+        //Day2Part1 a = new Day2Part1();
+
 
 
 
